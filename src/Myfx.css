@@ -1,0 +1,17 @@
+
+.root{
+    -fx-border-color:  #48C9B0;
+    -fx-background-color:  #5D6D7E;
+    -fx-border-width: 3px;
+}
+.button{
+    -fx-background-color: #48C9B0;
+    -fx-animated: hover;
+    -fx-border-radius: 1%;
+    -fx-border-style: dotted;
+
+}
+.button:hover{-fx-background-color: #A9CCE3}
+.label{
+    -fx-background-color: #48C9B0;
+}

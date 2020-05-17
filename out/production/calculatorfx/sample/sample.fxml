@@ -34,8 +34,8 @@
         <Button fx:id="btn9" mnemonicParsing="false" onAction="#buttonAction" prefHeight="50.0" prefWidth="110.0" text="9" GridPane.columnIndex="2" GridPane.rowIndex="2" />
         <Button fx:id="btneql" mnemonicParsing="false" onAction="#buttonAction" prefHeight="50.0" prefWidth="110.0" text="=" GridPane.columnIndex="2" GridPane.rowIndex="3" />
         <Button fx:id="btnbb" mnemonicParsing="false" onAction="#buttonAction" prefHeight="50.0" prefWidth="110.0" text=")" GridPane.columnIndex="3" GridPane.rowIndex="1" />
-        <Button fx:id="btnsqr" mnemonicParsing="false" onAction="#buttonAction" prefHeight="50.0" prefWidth="110.0" text="SQR" GridPane.columnIndex="3" GridPane.rowIndex="2" />
-        <Button fx:id="btnsqrt" mnemonicParsing="false" onAction="#buttonAction" prefHeight="50.0" prefWidth="110.0" text="SQRT" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+        <Button fx:id="btnrem" mnemonicParsing="false" onAction="#buttonAction" prefHeight="50.0" prefWidth="110.0" text="\%" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+        <Button fx:id="btndot" mnemonicParsing="false" onAction="#buttonAction" prefHeight="50.0" prefWidth="110.0" text="." GridPane.columnIndex="3" GridPane.rowIndex="3" />
         <Button fx:id="btnmns" mnemonicParsing="false" onAction="#buttonAction" prefHeight="50.0" prefWidth="110.0" text="-" GridPane.columnIndex="4" GridPane.rowIndex="1" />
         <Button fx:id="btnmult" mnemonicParsing="false" onAction="#buttonAction" prefHeight="50.0" prefWidth="110.0" text="*" GridPane.columnIndex="4" GridPane.rowIndex="2" />
         <Button fx:id="btndiv" mnemonicParsing="false" onAction="#buttonAction" prefHeight="50.0" prefWidth="110.0" text="÷" GridPane.columnIndex="4" GridPane.rowIndex="3" />

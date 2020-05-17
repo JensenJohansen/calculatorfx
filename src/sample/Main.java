@@ -4,6 +4,7 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
 public class Main extends Application {
@@ -11,9 +12,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
-      //  Image applicationIcon;
-        //applicationIcon = new Image(getClass().getResourceAsStream("cccc.jpg"));
-     //   primaryStage.getIcons().add(applicationIcon);
+        primaryStage.getIcons().add(new Image("file:cccc.jpg"));
         primaryStage.setTitle("CALCULATOR");
         primaryStage.setScene(new Scene(root, 600, 400));
         primaryStage.setResizable(false);

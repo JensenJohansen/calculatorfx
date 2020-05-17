@@ -44,9 +44,9 @@ public class Controller implements Initializable {
     @FXML
     private Button btnbb;
     @FXML
-    private Button btnsqr;
+    private Button btnrem;
     @FXML
-    private Button btnsqrt;
+    private Button btndot;
     @FXML
     private Button btnpls;
     @FXML
@@ -115,11 +115,11 @@ public class Controller implements Initializable {
        else if(event.getSource()==btn0){
            textf.setText(textf.getText()+"0");
        }
-       else if(event.getSource()==btnsqrt){
-           textf.setText(textf.getText()+"\u221A");
+       else if(event.getSource()==btndot){
+           textf.setText(textf.getText()+".");
        }
-       else if(event.getSource()==btnsqr){
-           textf.setText(textf.getText()+"\u00B2");
+       else if(event.getSource()==btnrem){
+           textf.setText(String.valueOf(Double.parseDouble(textf.getText()) / 100));
        }
        else if(event.getSource()==btneql){
            String banswer=textf.getText();
